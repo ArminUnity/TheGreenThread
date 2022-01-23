@@ -1,0 +1,1268 @@
+@media only screen and (min-width: 1300px) {
+  /* Desktop: */
+	h1{
+	color: #ffffff;
+	font-size: 100px;
+	text-align: right;
+	transition: 0.3s;
+	}
+	.card{
+	width: 240px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0px 0px 0px 0px black;
+	overflow-y: auto;
+	transition: 0.3s;
+	}
+	.menu-icon{
+	display: none;
+	}
+	nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+	}
+	p{
+	color: #ffffff;
+	font-size: 17px;
+	line-height: 35px;
+	text-align: right;
+	}
+	.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+	}
+	.col{
+	flex-basis: 50%;
+	}
+	.name{
+			text-decoration: none;
+	color: #ffffff;
+	text-shadow: 0 0 0px #000000;
+	font-size: 20px;
+	text-align: center;
+	transition: 0.3s;
+	}
+	.vis{
+ 	text-shadow: none;
+	font-size: 12px;
+	text-align: right;
+	margin-top: 8px;
+	line-height: 20px;
+	color: rgba(255,255,255,0.00);
+	transition: 0.3s;
+	}
+	.buttonm{
+	width: 180px;
+	color: #000000;
+	font-size: 15px;
+	padding: 12px 0;
+	background: #ffffff;
+	border: 0;
+	border-radius: 80px;
+	outline: none;
+	margin-top: 30px;
+	float: right;
+	transition: 0.3s;
+	cursor: pointer;
+	}
+	.buttonm:hover{
+	background-color: #27AE60;
+	color: #ffffff;
+	width: 200px;
+	}
+	.card1{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(Images/Game1.png);
+	}
+	.card1:hover{
+	background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url(Images/Game1.png);
+	}
+	.card2{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(Images/Game2.png);
+	}
+	.card2:hover{
+	background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url(Images/Game2.png);
+	}
+	.card3{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(Images/Game3.png);
+	}
+	.card3:hover{
+	background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url(Images/Game3.png);
+	}
+	.card4{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(Images/Game4.png);
+	}
+	.card4:hover{
+	background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url(Images/Game4.png);
+	}
+	.card:hover{
+	transform: translateY(-10px) scale(1.03);
+	box-shadow: 0px 10px 10px 0.5px rgba(0,0,0,0.5);
+	}
+	.card:hover .name{
+	text-shadow: 0 0 15px #ffffff;
+	}
+	.card:hover .vis{
+	color: rgba(255,255,255,1.00);
+	text-shadow: 0 0 15px #000000;
+	}
+	.rest1{
+	width: 100%;
+	height: 10vh;
+	background-color: #27AE60;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 10vh;
+	color: #FFFFFF;
+	font-size: 20px;
+	}
+	.buttonjoin{
+	width: 150px;
+	height: 40px;
+	color: #FFFFFF;
+	font-size: 15px;
+	padding: 12px 0;
+	background-color: #27AE60;
+	border: 0;
+	border-radius: 80px;
+	outline: none;
+	margin-top: 30px;
+	float: left;
+	transition: 0.3s;
+	cursor: pointer;
+	line-height: 20px;
+	}
+	.buttonjoin:hover{
+	width: 150px;
+	height: 40px;
+	color: #000000;
+	font-size: 15px;
+	padding: 12px 0;
+	background-color: #FFFFFF;
+	border: 0;
+	border-radius: 80px;
+	outline: none;
+	margin-top: 30px;
+	float: left;
+	transition: 0.3s;
+	cursor: pointer;
+	line-height: 20px;
+	}
+	.joinus{
+	border-radius: 30px;
+	width: 450px;
+	float: right;
+	}
+	.row-tools{
+	display: flex;
+	height: 88%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	}
+	.card-tool{
+	width: 230px;
+	height: 200px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0px 0px 0px 0px black;
+	overflow-y: auto;
+	transition: 0.3s;
+	overflow: hidden;
+	}
+	.card-tool .name{
+		color:rgba(0,0,0,0.00); 
+		display: none;
+	}
+	.card-tool .vis{
+		margin-top: 160px;
+	}
+	.card-ill{
+	background-color: #303030;
+	background-image: url(Images/Illustrator.png);
+	background-position: 50% 50%;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	}
+	.card-ill:hover{
+	height: 350px;
+	background-position: 50% 25%;
+	background-color: #27AE60;
+	}
+	.card-ph{
+	background-color: #303030;
+	background-image: url(Images/Photoshop.png);
+	background-position: 50% 50%;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	}
+	.card-ph:hover{
+	height: 350px;
+	background-position: 50% 25%;
+	background-color: #27AE60;
+	}
+	.card-bl{
+	background-color: #303030;
+	background-image: url(Images/Blender.png);
+	background-position: 50% 50%;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	}
+	.card-bl:hover{
+	height: 350px;
+	background-position: 50% 25%;
+	background-color: #27AE60;
+	}
+	.card-un{
+	background-color: #303030;
+	background-image: url(Images/Unity.png);
+	background-position: 50% 50%;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	}
+	.card-un:hover{
+	height: 350px;
+	background-position: 50% 25%;
+	background-color: #27AE60;
+	}
+	.card-tool:hover{
+	box-shadow: 0px 10px 10px 0.5px rgba(0,0,0,0.5);
+	}
+	.card-tool:hover .name{
+	color:rgba(255,255,255,1.00); 
+	display: block;
+	}
+	.card-tool:hover .vis{
+	color: rgba(255,255,255,1.00);
+	text-shadow: 0 0 15px #000000;
+	}
+	.float-child1 {
+  	flex-grow: 0.5;
+	padding: 30px;
+	}  
+	.tools{
+	width: 100%;
+	height: 70vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Tools.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+    padding: 20px;
+	color: #FFFFFF;
+	font-size: 15px;
+	text: left;
+	text-align: left;
+	align-items: center;
+ 	display: flex;
+	}
+	.game1{
+	width: 100%;
+	height: 500px;
+
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+    padding: 20px;
+	color: #FFFFFF;
+	font-size: 15px;
+	text: left;
+	text-align: left;
+	align-items: center;
+ 	display: flex;
+	}
+	.game-el{
+
+  	height: 100%;
+  	margin: 5px;
+	}
+	.gamebox{
+	float: left;
+	height: 80%;
+	width: 250px;
+	background-color: #303030;
+	border-radius: 20px;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+	}
+	.game-pic{
+		width: 90%;
+		display: block;
+		margin: 20px auto 0px auto;
+	}
+	.infobox2{
+	border: 0;
+	outline: none;
+	color: #FFFFFF;
+	height: 50px;
+	width: 90%;
+	margin-top: 10px;
+	margin-left: 12px;
+	background-color: #27AE60;
+	border-radius: 10px;
+	}
+	.infobox{
+	border: 0;
+	outline: none;
+	color: #FFFFFF;
+	height: 50px;
+	width: 90%;
+	margin-top: 10px;
+	margin-left: 12px;
+	background-color: #27AE60;
+	border-radius: 10px;
+	transition: 0.3s;
+	cursor: pointer;
+	}
+	.infobox:hover{
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 0;
+	outline: none;
+	}
+	.gamebox h2{
+		text-align: center;
+		margin-top: 5px;
+	}
+	.gamebox h3{
+		text-align: center;
+		margin-top: 5px;
+	}
+	.game-text{
+	height: 80%;
+	width: 65%;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 30px;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+	float: right;
+	box-sizing: border-box;
+   	padding: 10px;
+	}
+	.contact{
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+    padding: 20px;
+	color: #FFFFFF;
+	font-size: 15px;
+	text: left;
+	text-align: left;
+	align-items: center;
+ 	display: flex;
+	}
+	.contact-el{
+  	height: 100%;
+	flex-basis: 50%;
+	}
+	.contact-el2{
+  	height: 50%;
+	width: 80%;
+	float: left;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5));
+	}
+	.end{
+	width: 100%;
+	height: 70vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Tehran.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+    padding: 20px;
+	color: #FFFFFF;
+	font-size: 15px;
+	text: left;
+	text-align: left;
+	align-items: center;
+ 	display: flex;
+	}
+	.time{
+	direction:rtl; 
+	box-sizing: border-box;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 15px;
+	font-size: 24px;
+	}
+	.detail{
+	direction:rtl; 
+	font-size: 15px;
+	padding-right: 30px;
+	}
+	.map{
+	border: 0;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	float: right;
+	width: 80%;
+	height: 100%;
+	}
+}
+@media only screen and (max-width: 1300px) {
+  /* Resize elements: */
+	h1{
+	color: #ffffff;
+	font-size: 80px;
+	text-align: right;
+	transition: 0.3s;
+	}
+	.card{
+	width: 160px;
+	height: 280px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0px 0px 0px 0px black;
+	overflow-y: auto;
+	transition: 0.3s;
+	}
+	.menu-icon{
+	display: none;
+	}
+	nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+	}
+	p{
+	color: #ffffff;
+	font-size: 17px;
+	line-height: 35px;
+	text-align: right;
+	}
+	.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+	}
+	.col{
+	flex-basis: 50%;
+	}
+	.name{
+	color: #ffffff;
+	text-shadow: 0 0 0px #000000;
+	font-size: 20px;
+	text-align: center;
+	transition: 0.3s;
+	}
+	.vis{
+ 	text-shadow: none;
+	font-size: 12px;
+	text-align: right;
+	margin-top: 8px;
+	line-height: 20px;
+	color: rgba(255,255,255,0.00);
+	transition: 0.3s;
+	}
+	.buttonm{
+	width: 180px;
+	color: #000000;
+	font-size: 15px;
+	padding: 12px 0;
+	background: #ffffff;
+	border: 0;
+	border-radius: 80px;
+	outline: none;
+	margin-top: 30px;
+	float: right;
+	transition: 0.3s;
+	cursor: pointer;
+	}
+	.card1{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(Images/Game1.png);
+	}
+	.card1:hover{
+	background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url(Images/Game1.png);
+	}
+	.card2{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(Images/Game2.png);
+	}
+	.card2:hover{
+	background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url(Images/Game2.png);
+	}
+	.card3{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(Images/Game3.png);
+	}
+	.card3:hover{
+	background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url(Images/Game3.png);
+	}
+	.card4{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(Images/Game4.png);
+	}
+	.card4:hover{
+	background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)),url(Images/Game4.png);
+	}
+	.card:hover{
+	transform: translateY(-10px) scale(1.03);
+	box-shadow: 0px 10px 10px 0.5px rgba(0,0,0,0.5);
+	}
+	.card:hover .name{
+	text-shadow: 0 0 15px #ffffff;
+	}
+	.card:hover .vis{
+	color: rgba(255,255,255,1.00);
+	text-shadow: 0 0 15px #000000;
+	}
+	.rest1{
+	width: 100%;
+	height: 10vh;
+	background-color: #27AE60;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 10vh;
+	color: #FFFFFF;
+	font-size: 20px;
+	}
+	.buttonjoin{
+	width: 150px;
+	height: 40px;
+	color: #FFFFFF;
+	font-size: 15px;
+	padding: 12px 0;
+	background-color: #27AE60;
+	border: 0;
+	border-radius: 80px;
+	outline: none;
+	margin-top: 30px;
+	float: left;
+	transition: 0.3s;
+	cursor: pointer;
+	line-height: 20px;
+	}
+	.buttonjoin:hover{
+	width: 150px;
+	height: 40px;
+	color: #000000;
+	font-size: 15px;
+	padding: 12px 0;
+	background-color: #FFFFFF;
+	border: 0;
+	border-radius: 80px;
+	outline: none;
+	margin-top: 30px;
+	float: left;
+	transition: 0.3s;
+	cursor: pointer;
+	line-height: 20px;
+	}
+	.joinus{
+	border-radius: 30px;
+	width: 380px;
+	float: right;
+	}
+	.row-tools{
+	display: flex;
+	height: 88%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	}
+	.card-tool{
+	width: 230px;
+	height: 200px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0px 0px 0px 0px black;
+	overflow-y: auto;
+	overflow: hidden;
+	transition: 0.3s;	
+	}
+	.float-child1 {
+  	flex-grow: 0.5;
+	padding: 30px;
+	}  
+	.card-tool .name{
+	color:rgba(0,0,0,0.00); 
+	display: none;
+	}
+	.card-tool .vis{
+	margin-top: 160px;
+	}
+	.card-ill{
+	background-color: #303030;
+	background-image: url(Images/Illustrator.png);
+	background-position: 50% 50%;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	}
+	.card-ill:hover{
+	height: 350px;
+	background-position: 50% 25%;
+	background-color: #27AE60;
+	}
+	.card-ph{
+	background-color: #303030;
+	background-image: url(Images/Photoshop.png);
+	background-position: 50% 50%;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	}
+	.card-ph:hover{
+	height: 350px;
+	background-position: 50% 25%;
+	background-color: #27AE60;
+	}
+	.card-bl{
+	background-color: #303030;
+	background-image: url(Images/Blender.png);
+	background-position: 50% 50%;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	}
+	.card-bl:hover{
+	height: 350px;
+	background-position: 50% 25%;
+	background-color: #27AE60;
+	}
+	.card-un{
+	background-color: #303030;
+	background-image: url(Images/Unity.png);
+	background-position: 50% 50%;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	}
+	.card-un:hover{
+	height: 350px;
+	background-position: 50% 25%;
+	background-color: #27AE60;
+	}
+	.card-tool:hover{
+	box-shadow: 0px 10px 10px 0.5px rgba(0,0,0,0.5);
+	}
+	.card-tool:hover .name{
+	color:rgba(255,255,255,1.00); 
+	display: block;
+	}
+	.card-tool:hover .vis{
+	color: rgba(255,255,255,1.00);
+	text-shadow: 0 0 15px #000000;
+	}
+	.tools{
+	width: 100%;
+	height: 70vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Tools.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+    padding: 20px;
+	color: #FFFFFF;
+	font-size: 15px;
+	text: left;
+	text-align: left;
+	align-items: center;
+ 	display: flex;
+	}
+	.game1{
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+    padding: 20px;
+	color: #FFFFFF;
+	font-size: 15px;
+	text: left;
+	text-align: left;
+	align-items: center;
+ 	display: flex;
+	}
+	.game-el{
+
+  	height: 100%;
+  	margin: 5px;
+	}
+	.gamebox{
+	float: left;
+	height: 80%;
+	width: 250px;
+	background-color: #303030;
+	border-radius: 20px;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+	}
+	.game-pic{
+	width: 90%;
+	display: block;
+	margin: 20px auto 0px auto;
+	}
+	.infobox2{
+	border: 0;
+	outline: none;
+	color: #FFFFFF;
+	height: 50px;
+	width: 90%;
+	margin-top: 10px;
+	margin-left: 12px;
+	background-color: #27AE60;
+	border-radius: 10px;
+	}
+	.infobox{
+	border: 0;
+	outline: none;
+	color: #FFFFFF;
+	height: 50px;
+	width: 90%;
+	margin-top: 10px;
+	margin-left: 12px;
+	background-color: #27AE60;
+	border-radius: 10px;
+	transition: 0.3s;
+	cursor: pointer;
+	}
+	.infobox:hover{
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 0;
+	outline: none;
+	}
+	.gamebox h2{
+	text-align: center;
+	margin-top: 5px;
+	}
+	.gamebox h3{
+	text-align: center;
+	margin-top: 5px;
+	}
+	.game-text{
+	height: 80%;
+	width: 65%;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 30px;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+	float: right;
+	box-sizing: border-box;
+   	padding: 10px;
+	}
+	.contact{
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+    padding: 20px;
+	color: #FFFFFF;
+	font-size: 15px;
+	text: left;
+	text-align: left;
+	align-items: center;
+ 	display: flex;
+	}
+	.contact-el{
+  	height: 100%;
+	flex-basis: 50%;
+	}
+	.contact-el2{
+  	height: 50%;
+	width: 80%;
+	float: left;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5));
+	}
+	.end{
+	width: 100%;
+	height: 70vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Tehran.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+    padding: 20px;
+	color: #FFFFFF;
+	font-size: 15px;
+	text: left;
+	text-align: left;
+	align-items: center;
+ 	display: flex;
+	}
+	.time{
+	direction:rtl; 
+	box-sizing: border-box;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 15px;
+	font-size: 24px;
+	}
+	.detail{
+	direction:rtl; 
+	font-size: 15px;
+	padding-right: 30px;
+	}
+	.map{
+	border: 0;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	float: right;
+	width: 80%;
+	height: 100%;
+	}
+}
+@media only screen and (max-width: 930px) {
+  /* Mobile: */
+	h1{
+	color: #ffffff;
+	font-size: 34px;
+	text-align: right;
+	transition: 0.3s;
+	}
+	.card{
+	width: 110px;
+	height: 100px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0px 0px 0px 0px black;
+	overflow-y: auto;
+	transition: 0.3s;
+	}
+	.menu-icon{
+	display: block;
+	width: 40px;
+	cursor: pointer;
+	margin-left: 40px;
+	}
+	nav ul li{
+	display: none;
+	list-style: none;
+	margin-left: 60px;
+	}
+	p{
+	color: #ffffff;
+	font-size: 10px;
+	line-height: 20px;
+	text-align: right;
+	float: left;
+	}
+	.row{
+	display: flex;
+	flex-direction: column;
+	float: right;
+	height: 88%;
+	}
+	.col{
+	flex-basis: 50%;
+	}
+	.name{
+	color: #ffffff;
+	text-shadow: 0 0 15px #000000;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 25px;
+	transition: 0.3s;
+	}
+	.vis{
+ 	text-shadow: none;
+	font-size: 12px;
+	text-align: right;
+	margin-top: 8px;
+	line-height: 20px;
+	color: rgba(255,255,255,0.00);
+	transition: 0.3s;
+	display: none;
+	}
+	.buttonm{
+	width: 120px;
+	height: 30px;
+	color: #000000;
+	font-size: 12px;
+	line-height: 1px;
+	padding: 12px 0;
+	background: #ffffff;
+	border: 0;
+	border-radius: 80px;
+	outline: none;
+	margin-top: 30px;
+	transition: 0.3s;
+	float: right;
+	}
+	.rest1{
+	width: 100%;
+	height: 10vh;
+	background-color: #27AE60;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 10vh;
+	color: #FFFFFF;
+	font-size: 10px;
+	}
+	.buttonjoin{
+	width: 90px;
+	height: 25px;
+	color: #FFFFFF;
+	font-size: 10px;
+	padding: 12px 0;
+	background-color: #27AE60;
+	border: 0;
+	border-radius: 80px;
+	outline: none;
+	margin-top: 30px;
+	float: left;
+	transition: 0.3s;
+	cursor: pointer;
+	line-height: 6px;
+	}
+	.buttonjoin:hover{
+	width: 90px;
+	height: 25px;
+	color: #000000;
+	font-size: 10px;
+	padding: 12px 0;
+	background-color: #FFFFFF;
+	border: 0;
+	border-radius: 80px;
+	outline: none;
+	margin-top: 30px;
+	float: left;
+	transition: 0.3s;
+	cursor: pointer;
+	line-height: 6px;
+	}
+	.joinus{
+	border-radius: 10px;
+	width: 150px;
+	float: right;
+	}
+	.row-tools{
+	display: flex;
+	height: 88%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	}
+	.card-tool{
+	width: 230px;
+	height: 80px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0px 0px 0px 0px black;
+	overflow-y: auto;
+	transition: 0.3s;
+	}
+	.float-child1 {
+  	flex-grow: 0.5;
+	padding: 5px;
+	}  
+	.card-tool .name{
+	color:rgba(0,0,0,0.00); 
+	display: none;
+	}
+	.card-tool .vis{
+	display: none;
+	}
+	.card-ill{
+	background-color: #303030;
+	background-image: url(Images/Illustrator.png);
+	background-position: 50% 50%;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	}
+	.card-ph{
+	background-color: #303030;
+	background-image: url(Images/Photoshop.png);
+	background-position: 50% 50%;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	}
+
+	.card-bl{
+	background-color: #303030;
+	background-image: url(Images/Blender.png);
+	background-position: 50% 50%;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	}
+	.card-un{
+	background-color: #303030;
+	background-image: url(Images/Unity.png);
+	background-position: 50% 50%;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	}
+	.tools{
+	width: 100%;
+	height: 40vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Tools.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+    padding: 20px;
+	color: #FFFFFF;
+	font-size: 15px;
+	text: left;
+	text-align: left;
+	align-items: center;
+ 	display: flex;
+	}
+	.game1{
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+    padding: 20px;
+	color: #FFFFFF;
+	font-size: 15px;
+	text: left;
+	text-align: left;
+	align-items: center;
+ 	display: flex;
+	flex-direction: column-reverse;
+	}
+	.game-el{
+  	height: 50%;
+  	margin: 5px;
+	}
+	.gamebox{
+	height: 100%;
+	width: 150px;
+	background-color: #303030;
+	border-radius: 15px;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+	}
+	.game-pic{
+	width: 73%;
+	display: block;
+	margin: 5px auto 0px auto;
+	}
+	.infobox2{
+	border: 0;
+	outline: none;
+	color: #FFFFFF;
+	height: 25px;
+	width: 70%;
+	margin-top: 6px;
+	margin-left: 24px;
+	background-color: #27AE60;
+	border-radius: 30px;
+	}
+	.infobox{
+	border: 0;
+	outline: none;
+	color: #FFFFFF;
+	height: 25px;
+	width: 70%;
+	margin-top: 6px;
+	margin-left: 24px;
+	background-color: #27AE60;
+	border-radius: 30px;
+	transition: 0.3s;
+	cursor: pointer;
+	}
+	.gamebox h2{
+	text-align: center;
+	margin-top: 0px;
+	font-size: 15px;
+	display: none;
+	}
+	.gamebox h3{
+	text-align: center;
+	font-size: 10px;
+	}
+	.game-text{
+	height: 90%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 30px;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+	box-sizing: border-box;
+   	padding: 10px;
+	}
+	.contact{
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	box-sizing: border-box;
+    padding: 20px;
+	color: #FFFFFF;
+	font-size: 15px;
+	align-items: center;
+ 	display: flex;
+	flex-direction: column;
+	}
+	.map{
+	border: 0;
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+	}
+	.contact-el{
+  	height: 100%;
+	flex-basis: 50%;
+	}
+	.contact-el2{
+  	height: 50%;
+	width: 100%;
+
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5));
+	}
+	.end{
+	width: 100%;
+	height: 70vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Tehran.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+    padding: 20px;
+	color: #FFFFFF;
+	font-size: 15px;
+	align-items: center;
+ 	display: flex;
+	}
+	.time{
+	
+	text-align: right;
+	direction: rtl;
+	box-sizing: border-box;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	font-size: 15px;
+	float: right;
+	}
+	.detail{
+		
+	float: right;
+	font-size: 12px;
+	padding-right: 15px;
+	}
+	.brd1{
+	border-radius: 20px;
+	}
+	.brd2{
+	border-radius: 20px;
+	}
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: iransansweb;
+}
+.brd1{
+	border-top-right-radius: 20px;
+}
+.brd2{
+	border-bottom-right-radius: 20px;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(Images/Background.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+.rest2{
+	width: 100%;
+	height: 50vh;
+	background-color: #303030;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+    padding: 20px;
+	color: #FFFFFF;
+	font-size: 15px;
+	text: left;
+	text-align: left;
+	align-items: center;
+ 	display: flex;
+}
+.float-child {
+	padding: 30px;
+	border-radius: 25px;
+    border: 2px solid #27AE60;
+}  
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width:150px;
+	cursor: pointer;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 13px;
+}
+a{
+	text-decoration: none;
+}
